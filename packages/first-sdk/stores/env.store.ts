@@ -4,5 +4,10 @@ class EnvStore{
     constructor(){
         this.language = "ar";
     }
+
+    @computed
+    get getLanguage():string{
+        return this.language;
+    }
 };
 export default EnvStore;
