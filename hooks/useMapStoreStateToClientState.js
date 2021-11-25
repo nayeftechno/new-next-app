@@ -11,7 +11,7 @@ function useMapStateToClientState(store,storePropsSelectionFunction){
         });
     },[]);
 
-    return [state];
+    return state;
 
 };
 export {useMapStateToClientState};
